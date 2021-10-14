@@ -1,5 +1,5 @@
 # Alison Vandromme - Ynov M1 Docker Elective
-Kubernetes - Basic Concepts App
+Kubernetes - V1
 
 ## Method used
 
