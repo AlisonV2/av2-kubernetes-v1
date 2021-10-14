@@ -18,7 +18,13 @@ docker build -f Dockerfile -t av2-docker-kub .
 docker run -p 8080:8080 av2-docker-kub
 ```
 
-### Step 3: 
+### Step 3: Docker Hub Image Hosting
 
+- Renamed local image
+- Pushed it on Dockerhub to avoid ErrImagePull
 
+```sh
+docker tag av2-docker-kub alisonv2/docker-kub
+docker push alisonv2/docker-kub
+```
 
