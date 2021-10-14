@@ -28,3 +28,16 @@ docker tag av2-docker-kub alisonv2/docker-kub
 docker push alisonv2/docker-kub
 ```
 
+### Step 4: Created Deployment
+
+- Started cluster with Minikube
+- Created deployment.yaml file with the image pushed on Dockerhub
+- Applied deployment
+- Checked deployments and pods
+
+```sh
+kubectl apply -f deployment.yaml
+kubectl get deployments
+kubectl get pods
+```
+
