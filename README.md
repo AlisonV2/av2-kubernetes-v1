@@ -1,4 +1,5 @@
-# Alison Vandromme - Ynov M1 Docker Elective - Kubernetes
+# Alison Vandromme - Ynov M1 Docker Elective
+Kubernetes - Basic Concepts App
 
 ## Method used
 
