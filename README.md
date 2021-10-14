@@ -28,7 +28,7 @@ docker tag av2-docker-kub alisonv2/docker-kub
 docker push alisonv2/docker-kub
 ```
 
-### Step 4: Created Deployment
+### Step 4: Deployment Creation
 
 - Started cluster with Minikube
 - Created deployment.yaml file with the image pushed on Dockerhub
@@ -41,3 +41,24 @@ kubectl get deployments
 kubectl get pods
 ```
 
+### Step 5: Service Creation
+
+- Created service.yaml file
+- Checked if the service is ready
+- Exposed Service with Minikube
+
+```sh
+kubectl apply -f service.yaml
+kubectl get services
+minikube service docker-kub-service
+```
+
+### Step 6: Config Files Merge
+
+- Merged deployment and service files into one file
+
+```sh
+kubectl delete -f deployment.yaml,service.yaml
+kubectl apply -f kubernetes.yaml
+minikube service docker-kub-service
+```
