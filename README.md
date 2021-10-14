@@ -10,5 +10,15 @@
 
 ### Step2: Dockerfile Creation
 
+- Created Dockerfile
+- Built and ran image with : 
+
+```sh
+docker build -f Dockerfile -t av2-docker-kub .
+docker run -p 8080:8080 av2-docker-kub
+```
+
+### Step 3: 
+
 
 
