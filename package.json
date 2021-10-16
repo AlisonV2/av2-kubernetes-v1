@@ -1,5 +1,5 @@
 {
-  "name": "av2-docker-kub-v1",
+  "name": "av2-kubernetes-v1",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
